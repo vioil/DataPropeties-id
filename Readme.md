@@ -9,3 +9,5 @@
 * meshTerms
 * netID
 * hrID
+
+Creating various types of organizations sub-classes may be needed
