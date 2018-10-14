@@ -11,10 +11,9 @@
     xmlns:ocresd="http://purl.org/net/OCRe/study_design.owl#"
     xmlns:bibo="http://purl.org/ontology/bibo/"
     xmlns:aktp="http://www.aktors.org/ontology/portal#"
-    xmlns:tamu="http://vivo.library.tamu.edu/ontology/TAMU#"
     xmlns:socsci="http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#"
     xmlns:event="http://purl.org/NET/c4dm/event.owl#"
-    xmlns:vlocal="http://vivo.northwestern.edu/ontology/vlocal#"
+    xmlns:vlocal="http://vivo.columbia.edu/ontology/vlocal#"
     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
     xmlns:sce="http://vivoweb.org/ontology/SchoolOfContinuingEducation#"
     xmlns:config="http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#"
@@ -53,7 +52,7 @@
     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
     xmlns:swvs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#peopleID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#peopleID">
     <rdfs:label xml:lang="en-US">peopleID</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -64,7 +63,7 @@
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id of investigators table</vitro:descriptionAnnot>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#fullAuthorList">
     <rdfs:label xml:lang="en-US">fullAuthorList</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
@@ -73,12 +72,12 @@
     <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupoverview"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <rdfs:label xml:lang="en-US">Vlocal</rdfs:label>
     <vitro:ontologyPrefixAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vlocal</vitro:ontologyPrefixAnnot>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#medlineCategory">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#medlineCategory">
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupresearch"/>
     <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NLM publication types</vitro:descriptionAnnot>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -88,7 +87,7 @@
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#DepartmentID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#DepartmentID">
     <rdfs:label xml:lang="en-US">departmentID</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -98,7 +97,7 @@
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
- <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#hasMember">
+ <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#hasMember">
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupaffiliation"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</vitro:displayLimitAnnot>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -110,7 +109,7 @@
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#DivisionID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#DivisionID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:label xml:lang="en-US">divisionID</rdfs:label>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -120,7 +119,7 @@
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#orgID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#orgID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
     <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -132,7 +131,7 @@
     <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id of organizational_units table&#xD;
 from HR system (e.g 600000, 102000) </vitro:descriptionAnnot>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#abstractID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#abstractID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abstractID is the ID of the abstract as found in LG data set???</vitro:descriptionAnnot>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -143,7 +142,7 @@ from HR system (e.g 600000, 102000) </vitro:descriptionAnnot>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en-US">abstractID</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#meshTerms">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#meshTerms">
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupresearch"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
@@ -152,7 +151,7 @@ from HR system (e.g 600000, 102000) </vitro:descriptionAnnot>
     <rdfs:label xml:lang="en-US">meshTerms</rdfs:label>
     <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#netID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#netID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:label xml:lang="en-US">netID</rdfs:label>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -161,9 +160,9 @@ from HR system (e.g 600000, 102000) </vitro:descriptionAnnot>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northwestern University Net ID</vitro:descriptionAnnot>
+    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">columbia University Net ID</vitro:descriptionAnnot>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.northwestern.edu/ontology/vlocal#hrID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#hrID">
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
     <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
