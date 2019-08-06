@@ -51,7 +51,7 @@
     xmlns:vann="http://purl.org/vocab/vann/"
     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
     xmlns:swvs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
   <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#peopleID">
     <rdfs:label xml:lang="en-US">peopleID</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -77,17 +77,7 @@
     <rdfs:label xml:lang="en-US">Vlocal</rdfs:label>
     <vitro:ontologyPrefixAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vlocal</vitro:ontologyPrefixAnnot>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#medlineCategory">
-    <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupresearch"/>
-    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NLM publication types</vitro:descriptionAnnot>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:label xml:lang="en-US">medlineCategory</rdfs:label>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#DepartmentID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#departmentID">
     <rdfs:label xml:lang="en-US">departmentID</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
@@ -109,7 +99,7 @@
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#DivisionID">
+  <rdf:Description rdf:about="http://vivo.columbia.edu/ontology/vlocal#divisionID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:label xml:lang="en-US">divisionID</rdfs:label>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#dbAdmin"/>
